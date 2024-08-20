@@ -91,6 +91,7 @@ function createMap(data, geo_data) {
   
     // create layer
     let heatLayer = L.heatLayer(heatArray, {
+      gradient: {0.1: 'red'},
       radius: 25,
       blur: 20
     });
@@ -117,9 +118,9 @@ function createMap(data, geo_data) {
   
     // Step 4: INIT the Map
     let myMap = L.map("map", {
-      center: [41.0902, -95.7129],
-      zoom: 5,
-      layers: [street, markers, geo_layer]
+      center: [14.5994, -48.6731],
+      zoom: 2,
+      layers: [street, heatLayer, geo_layer, circleLayer]
     });
   
   
