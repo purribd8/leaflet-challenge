@@ -1,6 +1,6 @@
 # leaflet-challenge
 
-USGS GeoJSON Feed is used to for map visualizations. Each visualization shows the 
+USGS GeoJSON Feed is used to for map visualizations. Each visualization shows Earthquake for the current day. Magnitude of the earthquakes are indicated by the size of the circles and depth is indicated by the color. 
 
 Please find the coding for this challenge in the Leaflet_Part_1 and Leaflet_Part_2 Folders
 
